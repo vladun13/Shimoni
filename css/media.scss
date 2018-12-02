@@ -1,0 +1,146 @@
+@media (min-width: 1200px) {
+
+}
+
+/* XL */
+@media (max-width: 1199px) {
+	.header{
+		text-align: center;
+	}
+
+	.logo{
+		background: url("../img/logo_mobile.png") no-repeat center center;
+		height: 177px;
+		widows: 159px;
+		margin: 0 auto;
+	}
+
+	.ab{
+		text-align: center;
+
+		&__img{
+			float: none;
+		}
+
+		&__desc{
+			float: none;
+		}
+	}
+
+	.advantages{
+		&:after{
+			height: 100%;
+		}
+	}
+
+	.info{
+		text-align: center;
+
+		&__img-box{
+			margin: 0 auto;
+			margin-top: 30px;
+		}
+	}
+}
+
+/* LG */
+@media (max-width: 991px) {
+	.slider{
+
+		&__arrows{
+			text-align: center;
+		}
+
+		&__arrow{
+			position: relative;
+			margin-top: 0;
+		}
+	}
+
+	.feedback{
+		input{
+			margin-bottom: 30px;
+		}
+
+		.button{
+			margin-bottom: 30px;
+		}
+	}
+
+	.footer{
+
+		.f-widget{
+			margin-bottom: 30px;
+			text-align: center;
+
+			&__body{
+				text-align: center;
+			}
+
+			&__text{
+				text-align: center;
+
+				
+				table{
+					margin: 0 auto;
+				}
+			}
+
+			&__socials{
+				text-align: center;
+			}
+
+			.copy{
+				text-align: center;
+			}
+		}
+		
+	}
+}
+
+/* MD */
+@media (max-width: 767px) {
+
+	.rotate{
+		transform: rotate(0deg);
+	}
+
+	.unrotate{
+		transform: rotate(0deg);
+	}
+
+	.simple-nav{
+		position: absolute;
+		top: 20px;
+		left: 20px;
+
+		&__phone{
+			display: block;
+		}
+
+		&__list{
+			display: none;
+		}
+	}
+
+	.phone-box{
+		display: block;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+
+
+}
+
+
+/* SM */
+@media (max-width: 575px) {
+
+}
+
+@media (max-width: 350px) {
+
+}
+

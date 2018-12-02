@@ -1,0 +1,100 @@
+/* XL */
+@media (max-width: 1199px) {
+  .header {
+    text-align: center;
+  }
+  .logo {
+    background: url("../img/logo_mobile.png") no-repeat center center;
+    height: 177px;
+    widows: 159px;
+    margin: 0 auto;
+  }
+  .ab {
+    text-align: center;
+  }
+  .ab__img {
+    float: none;
+  }
+  .ab__desc {
+    float: none;
+  }
+  .advantages:after {
+    height: 100%;
+  }
+  .info {
+    text-align: center;
+  }
+  .info__img-box {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}
+
+/* LG */
+@media (max-width: 991px) {
+  .slider__arrows {
+    text-align: center;
+  }
+  .slider__arrow {
+    position: relative;
+    margin-top: 0;
+  }
+  .feedback input {
+    margin-bottom: 30px;
+  }
+  .feedback .button {
+    margin-bottom: 30px;
+  }
+  .footer .f-widget {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .footer .f-widget__body {
+    text-align: center;
+  }
+  .footer .f-widget__text {
+    text-align: center;
+  }
+  .footer .f-widget__text table {
+    margin: 0 auto;
+  }
+  .footer .f-widget__socials {
+    text-align: center;
+  }
+  .footer .f-widget .copy {
+    text-align: center;
+  }
+}
+
+/* MD */
+@media (max-width: 767px) {
+  .rotate {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  .unrotate {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  .simple-nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  .simple-nav__phone {
+    display: block;
+  }
+  .simple-nav__list {
+    display: none;
+  }
+  .phone-box {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+
+/* SM */
+/*# sourceMappingURL=media.css.map */

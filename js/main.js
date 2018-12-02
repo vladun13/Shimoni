@@ -15,7 +15,7 @@ $(document).ready(function(){
 			dotsClass: 'slider__slick-dots'
 	});
 
-	    /* Scroll menu */
+	    /* ПЛАВАЮЩЕЕ МЕНЮ ПРИ ПРОКРУТКЕ */
 			function swimMenu(){
         var navFixed = $(".phone-box.navigation__nofixed"),
         navHeight = navFixed.height();
